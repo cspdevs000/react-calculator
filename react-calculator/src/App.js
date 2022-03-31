@@ -39,20 +39,20 @@ function App() {
       <button className="span-two">AC</button>
       <button className="">DEL</button>
       <DigitButton digit="÷" dispatch={dispatch} />
-      <button className="">1</button>
-      <button className="">2</button>
-      <button className="">3</button>
+      <DigitButton digit="1" dispatch={dispatch} />
+      <DigitButton digit="2" dispatch={dispatch} />
+      <DigitButton digit="3" dispatch={dispatch} />
       <button className="">*</button>
-      <button className="">4</button>
-      <button className="">5</button>
-      <button className="">6</button>
+      <DigitButton digit="4" dispatch={dispatch} />
+      <DigitButton digit="5" dispatch={dispatch} />
+      <DigitButton digit="6" dispatch={dispatch} />
       <button className="">+</button>
-      <button className="">7</button>
-      <button className="">8</button>
-      <button className="">9</button>
+      <DigitButton digit="7" dispatch={dispatch} />
+      <DigitButton digit="8" dispatch={dispatch} />
+      <DigitButton digit="9" dispatch={dispatch} />
       <button className="">-</button>
-      <button className="">.</button>
-      <button className="">0</button>
+      <DigitButton digit="." dispatch={dispatch} />
+      <DigitButton digit="0" dispatch={dispatch} />
       <button className="span-two">=</button>
     </div>
   );
