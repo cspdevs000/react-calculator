@@ -1,10 +1,11 @@
 *, *::before, *::after {
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
 body {
     margin: 0;
-    background: linear-gradient(to right, #ac65ee, #a03975)
+    background: linear-gradient(to right, #ac65ee, #a03975);
 }
 
 .calc-grid {
@@ -27,9 +28,8 @@ body {
     background-color: rgba(255, 255, 255, 0.75);
 }
 
-.calc-grid > button:hover,
-.calc-grid > button:focus {
-    background-color: rgba(255, 255, 255, 0.9);
+.calc-grid > button:hover {
+    background-color: rgba(94, 77, 189, 0.678);
 }
 
 .output {
