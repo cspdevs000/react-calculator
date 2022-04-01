@@ -5,7 +5,7 @@
 
 body {
     margin: 0;
-    background: linear-gradient(to right, #ac65ee, #a03975);
+    background: linear-gradient(to right, #ac65ee91, #c42bc494);
 }
 
 .calc-grid {
@@ -21,20 +21,21 @@ body {
 }
 
 .calc-grid > button {
+    box-shadow: 0 0.5em 1em -0.1125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.22);
     cursor: pointer;
     font-size: 2rem;
     border: 1px solid white;
     outline: none;
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .calc-grid > button:hover {
-    background-color: rgba(94, 77, 189, 0.678);
+    background-color: rgba(168, 118, 179, 0.205);
 }
 
 .output {
     grid-column: 1 / -1;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(85, 182, 56, 0.671);
     display: flex;
     flex-direction: column;
     align-items: flex-end;

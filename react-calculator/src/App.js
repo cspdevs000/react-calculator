@@ -108,6 +108,7 @@ function evaluate({ currentOperand, previousOperand, operation }) {
   if (isNaN(prev) || isNaN(current)) return ""
   let computation = ""
   switch (operation) {
+    default:
     case "+":
       computation = prev + current
       break
